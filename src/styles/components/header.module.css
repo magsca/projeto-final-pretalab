@@ -1,0 +1,28 @@
+.header.Container{
+    padding: 6rem;
+    background-color: #BADFBE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.headerTitle {
+    color: #fff;
+    font-size: 4rem;
+}
+
+/* quando a tela está grande vai ocupar 40%da tela*/
+.headerImage {
+    width: 50%;
+    justify-content: center;
+   
+}
+
+@media(max-width: 765px) {
+    .headerImage {
+    width: 100%; 
+    }
+}
