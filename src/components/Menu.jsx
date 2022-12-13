@@ -18,11 +18,6 @@ export function Menu() {
         <li className={styles.menuItem}>
             <Link className={styles.menuLink} to="/contato ">Contato</Link>
         </li>
-
-        <li>
-            <Link to=""></Link>
-        </li>
-
         </ul>
     )
 }

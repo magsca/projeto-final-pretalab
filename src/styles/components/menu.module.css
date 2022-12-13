@@ -1,20 +1,22 @@
 .menuContainer {
-    background: #BADFBE;
+    background: #fff;
     display: flex;
     gap: 10rem;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 5rem;
+    
     }
 
     .menuItem{
         list-style: none;
+        font-size: 24px;
     }
 
     .menuLink{
         text-decoration: none; 
         font-size: 1.5rem;
-        color: #fff
+        color: #1B523E;
     }
      /* esse media max width é a maior tela de tablet; ou seja, para ficar responsivo */
     @media(max-width: 765px)  {

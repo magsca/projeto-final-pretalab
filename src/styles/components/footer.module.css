@@ -1,5 +1,5 @@
 .rodape{
-    background: #BF9D9C;;
+    background: #BADFBE;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -9,6 +9,7 @@
 
 .rodapeText{
     color: #fff;
-    font-size: 1rem;
+    font-size: 2rem;
+
 
 }

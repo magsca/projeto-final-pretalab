@@ -1,0 +1,14 @@
+.sobreContainer {
+    padding: 20rem;
+    display: flex;
+    font-size: 20px;
+    background-color: #fff !important;
+    width: 100%;
+    gap: 4rem;
+    color: rgb(64, 85, 64);
+    }
+
+  .descriptionTitle{
+    padding: 2rem;
+   
+  }
