@@ -1,14 +1,22 @@
 .sobreContainer {
-    padding: 20rem;
-    display: flex;
-    font-size: 20px;
-    background-color: #fff !important;
-    width: 100%;
-    gap: 4rem;
-    color: rgb(64, 85, 64);
-    }
+  padding: 10px;
+  display: flex;
+  font-size: 20px;
+  background-color: #fff;
+  width: 100%;
+  gap: 4rem;
+  color: rgb(64, 85, 64);
+}
 
-  .descriptionTitle{
-    padding: 2rem;
-   
-  }
+.paraDescription {
+  width: 90%;
+  margin-top: 2rem;
+  font-size: larger;
+  margin-left: 3rem;
+  color: #6a816d;
+}
+
+.descriptionTitle {
+  padding: 2rem;
+  color: #819b84;
+}

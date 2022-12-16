@@ -1,70 +1,29 @@
-import {Header} from '../components/Header'
+import { Header } from '../components/Header'
 import aboutmeImg from '../assets/aboutme.svg'
-
 import styles from '../styles/pages/sobre.module.css'
-
 import meImg from '../assets/eucirculo.jpeg'
 
-export function Sobre(){
-    return(
+export function Sobre() {
+    return (
         <>
-        <Header text="Minha história" image={aboutmeImg}/>
-        <div className={styles.sobreContainer}>
-        <h1 >Curiosidades sobre mim  </h1>
-        <p> 
-        <img src={meImg} width={550} />
-        </p>
-        <div>
-        <h2 className={styles.descriptionTitle}> Caroline Magalhães, prazer!</h2>
-        <p> Carolina é uma menina bem difícil de esquecer
-Andar bonito e um brilho no olhar
-Tem um jeito adolescente que me faz enlouquecer
-E um molejo que eu não vou te enganar
-
-Maravilha feminina, meu docinho de pavê
-Inteligente, ela é muito sensual
-Te confesso que estou apaixonado por você
-Ô, Carolina, isso é muito natural
-
-Ô, Carolina, eu preciso de você
-Carolina é uma menina bem difícil de esquecer
-Andar bonito e um brilho no olhar
-Tem um jeito adolescente que me faz enlouquecer
-E um molejo que eu não vou te enganar
-
-Maravilha feminina, meu docinho de pavê
-Inteligente, ela é muito sensual
-Te confesso que estou apaixonado por você
-Ô, Carolina, isso é muito natural
-
-Ô, Carolina, eu preciso de você
-Ô, Carolina, eu preciso de você
-Ô, Carolina, eu não vou suportar não te ver
-Carolina, eu preciso te falar
-Ô, Carolina eu vou amar você
-Carolina, Carolina
-
-Carolina, preciso te encontrar
-Carolina, me sinto muito só
-Carolina, preciso te dizer
-Ô, Carolina, eu só quero amar você
-
-Carolina, preciso te encontrar
-Ô, Carolina, me sinto muito só
-Carolina, preciso te dizer
-Ô, Carolina, eu só quero amar você
-
-Carolina é uma menina bem difícil de esquecer
-Andar bonito e um brilho no olhar
-Tem um jeito adolescente que me faz enlouquecer
-E um molejo que eu não vou te enganar
-
-Maravilha feminina, meu docinho de pavê
-Inteligente, ela é muito sensual
-Te confesso que estou apaixonado por você
-Ô, Carolina, isso é muito natural</p>
-</div>
-        </div>
+            <Header text="Minha história" image={aboutmeImg} />
+            <div className={styles.sobreContainer}>
+                <p>
+                    <img src={meImg} width={400} />
+                </p>
+                <div>
+                    <h2 className={styles.descriptionTitle}> Caroline Magalhães, prazer!</h2>
+                    <b />
+                    <p className={styles.paraDescription}> Mineira, graduada em Administração de Empresas e Pós Graduada em Gestão Pública Municipal.
+                        <b />
+                        Em transição de carreira para área de tecnologia direcionada para front end e integrante do Pretalab Bootcamp que visa reduzir o gap de gênero e raça no mercado tecnológico.
+                        <b />
+                        Apaixonada por música, leitura, natureza e ao mesmo tempo ligada no 220.
+                        <b />
+                        Sou curiosa, resolutiva, pé no chão e pé na estrada ao ponto de me levar para o outro lado do mundo numa experiência incrível em Vancouver - Canadá que me ampliou horizontes e possibilidades.
+                    </p>
+                </div>
+            </div>
         </>
     )
 }
